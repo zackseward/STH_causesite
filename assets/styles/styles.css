@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "FuturaBold",Helvetica,Arial,sans-serif;
+}
+
+p {
+  font-family: Georgia,serif;
+  letter-spacing: 0.5px;
+}
+
+a {
+  font-family: Georgia,serif;
+  color: #DDA832;
+}
+
+.top-nav {
+  background-color: #45290F;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+}
+
+.entire {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 80%;
+}
+
+.header-container {
+  background-color: #E4CDAB;
+  width: 100%;
+}
+
+.s1 {
+  width: 80%;
+}
+
+.s1-container {
+  width: 100%;
+  background-color: #E7DDAB;
+}
+
+nav {
+  float: right;
+}
