@@ -44,12 +44,14 @@ a {
   font-family: Arial;
   color: #49280A;
   font-size: 20px;
-  background: rgba(192,192,192,0.0);;
+  background: rgba(192,192,192,0.0);
+  background-color: #A52F31;
   padding: 10px 20px 10px 20px;
   border: solid #49280A 2px;
   text-decoration: none;
   width: 200px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .donate-button:hover {
