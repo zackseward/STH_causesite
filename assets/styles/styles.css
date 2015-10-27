@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "FuturaBold",Helvetica,Arial,sans-serif;
   margin: 0;
@@ -27,6 +31,7 @@ a {
 
 .header {
   text-align: center;
+  padding: 50px 0;
 }
 
 .header h1 {
@@ -68,6 +73,7 @@ a {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  padding: 50px 0;
 }
 
 .s1-container {
@@ -92,14 +98,18 @@ nav {
 }
 
 .s2 {
+  height: 200px;
+  padding: 50px 0;
+  background: #000000;
+  opacity: .8;
   background-image: url("../images/coffee-parallax.jpg");
   background-attachment: fixed;
-  height: 450px;
 }
 
 .s2-quote {
   font-size: 60px;
   color: white;
+  text-shadow: 2px 2px #000000;
   width: 80%;
   text-align: right;
   margin: 0 auto;
@@ -114,6 +124,7 @@ nav {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  padding: 50px 0;
 }
 
 .footer {

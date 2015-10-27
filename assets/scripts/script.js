@@ -1,6 +1,7 @@
 console.log("Real af")
 
 
+
 $('.cd-form .cd-email').keyup(function(event){
 	var emailInput = $(this),
 		insertedEmail = emailInput.val(),
