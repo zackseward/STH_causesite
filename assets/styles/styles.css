@@ -16,6 +16,11 @@ p {
 a {
   font-family: Georgia,serif;
   color: #DDA832;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .top-nav {
@@ -24,8 +29,9 @@ a {
   height: 50px;
 }
 
-nav {
-    padding: 15px 20px;
+nav, nav a {
+  padding: 15px 20px;
+  text-decoration: none;
 }
 
 .entire {
@@ -35,7 +41,7 @@ nav {
 
 .header {
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 0 30px 0;
 }
 
 .header h1 {
@@ -47,25 +53,27 @@ nav {
 }
 
 .donate-button {
+  display: block;
   -webkit-border-radius: 17;
   -moz-border-radius: 17;
   border-radius: 17px;
   font-family: Arial;
-  color: #49280A;
+  color: #DDA832;
   font-size: 20px;
   background: rgba(192,192,192,0.0);
   background-color: #A52F31;
   padding: 10px 20px 10px 20px;
   border: solid #49280A 2px;
   text-decoration: none;
-  width: 200px;
+  width: 300px;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .donate-button:hover {
   background: #E4A912;
   text-decoration: none;
+  color: black;
 }
 
 .header-container {
@@ -88,6 +96,7 @@ nav {
  .s1-picker img, .s1-robot img, .s1-drinker img {
   border-radius: 50%;
   width: 50%;
+  margin: 20px 0;
 }
 
  .s1-picker, .s1-robot, .s1-drinker {
@@ -95,6 +104,10 @@ nav {
   display: inline-block;
   text-align: center;
  }
+
+.s1 p {
+  margin-top: 15px;
+}
 
 
 nav {
@@ -129,6 +142,18 @@ nav {
   margin: 0 auto;
   text-align: center;
   padding: 50px 0;
+}
+
+.s3 h2 {
+  margin-bottom: 25px;
+}
+
+input#cd-email {
+  height: 25px;
+  margin: 0; 
+  padding: 0; 
+  font-size: 0.85em;
+  outline: none;
 }
 
 .footer {
