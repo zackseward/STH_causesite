@@ -36,6 +36,7 @@ nav, nav a {
 
 .entire {
   width: 100%;
+  min-height: 100%;
   margin: 0 auto;
 }
 
@@ -166,4 +167,14 @@ input#cd-email {
   color: #ffffff;
   float: right;
   padding-right: 40px;
+}
+
+.entire-body {
+  background-color: #E4CDAB;
+  height: 80vh;
+}
+
+.active {
+  text-decoration: underline;
+  color: #A52F31;
 }
